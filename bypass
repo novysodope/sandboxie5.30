@@ -1,0 +1,14 @@
+#CVE
+
+Summary:
+When the permissions are the same, sandboxie can't limit the operation of the software,affected systems:win7/win10
+
+Steps To Reproduce:
+no1.Sandboxie running program function:
+The official website to download sandboxie 5.30 installation,run cmd in the sandbox, then switch to the system32 directory, run the control.exe command in cmd to open the control panel, select the uninstaller, uninstall sandboxie,after clicking uninstall, sandboxie will stop the service, and then repeat the operation once, the sandboxie will be successfully uninstalled.
+
+No.2 Sandboxie running webpage function should be:
+You can pause the sandboxie service by downloading the sandboxie installation in your browser and selecting Uninstall in the Upgrade and Uninstall options.
+
+Impact
+Attackers use vulnerabilities to enable them to escalate their privileges and perform actions they should not be authorized to perform.
