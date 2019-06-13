@@ -10,5 +10,6 @@ The official website to download sandboxie 5.30 installation,run cmd in the sand
 No.2 Sandboxie running webpage function should be:
 You can pause the sandboxie service by downloading the sandboxie installation in your browser and selecting Uninstall in the Upgrade and Uninstall options.
 
+ps:When installing powershell.msi in win10 1803, it will not be controlled by sandboxie, jumping out of sandboxie
 Impact
 Attackers use vulnerabilities to enable them to escalate their privileges and perform actions they should not be authorized to perform.
