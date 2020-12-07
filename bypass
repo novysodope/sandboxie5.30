@@ -1,4 +1,4 @@
-#CVE
+
 
 Summary:
 When the permissions are the same, sandboxie can't limit the operation of the software,affected systems:win7/win10
